@@ -1,6 +1,7 @@
 #include <iostream>
 
 // we need to include the Math library 
+// نحتاج إلى تضمين مكتبة الرياضيات
 #include <cmath>
 
 using namespace std;
