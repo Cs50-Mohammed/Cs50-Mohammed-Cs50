@@ -4,14 +4,13 @@ using namespace std;
 
 void fdsdsffds()
 {
-    int x;
-    cout << "My name : Mohammed " << endl;
-    cin >> x;
-    cout << x << endl;
+    wstring name = L"محمد";
+
+    wcout << name;
 }
 
 int main()
 {
-
+    fdsdsffds();
     return 0;
 }
