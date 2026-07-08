@@ -2,15 +2,18 @@
 
 using namespace std;
 
-void fdsdsffds()
+int x()
 {
-    wstring name = L"محمد";
+    cout << "sdsd" << endl;
+    int x = 99;
+    int z = 101;
+    return x + 1 + z;
 
-    wcout << name;
+    cout << "mohammed";
 }
 
 int main()
 {
-    fdsdsffds();
+    cout << x();
     return 0;
 }
