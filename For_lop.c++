@@ -18,18 +18,18 @@ void example1()
     int z = 0;
     for (int i = 1; i <= 10; i--)
     {
-        cout << "KDSFJKFD";
+        cout << "KDSFJKFD" << " ";
     }
-    cout << z << endl;
+    cout << endl;
 }
 
 void example2()
 {
-    cout << "Example 2:\n";
+    cout << endl
+         << endl;
 
     int arr[5];
 
-    // إدخال العناصر
     cout << "Enter 5 numbers:\n";
     for (int i = 0; i < 5; i++)
     {
@@ -43,13 +43,13 @@ void example2()
         cout << arr[i] << " ";
     }
 
-    cout << "\n\n";
+    cout << endl;
 }
 
 int main()
 {
     example1();
-    // example2();
+    example2();
 
     return 0;
 }
