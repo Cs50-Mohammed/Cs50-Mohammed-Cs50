@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+// الفكرة الأساسية
+// (Loop) تُستخدم عندما تعرف مسبقًا عدد مرات تكرار العملية
+// بدلًا من كتابة نفس الكود عدة مرات، نكتب الكود مرة واحدة داخل الحلقة، وهي تقوم بتكراره تلقائيًا
+//
+
+// متى نستخدم For Loop
+//  (نعرف عدد مرات التكرار) نريد العد من رقم إلى رقم ) او)
+
+// كيف تعمل؟
 /*
 for (initialization; condition; increment)
 {
@@ -12,31 +21,28 @@ for (initialization; condition; increment)
 3- increment      : زيادة أو نقصان المتغير بعد كل دورة.
 */
 
-// مثال 1: طباعة الأرقام من 1 إلى 5
+// طباعه الارقام من 1 الي 5
 void example1()
 {
-    int z = 0;
-    for (int i = 1; i <= 10; i--)
+    for (int i = 1; i <= 5; i++)
     {
-        cout << "KDSFJKFD" << " ";
+        cout << i << " ";
     }
     cout << endl;
 }
 
+//
 void example2()
 {
-    cout << endl
-         << endl;
-
     int arr[5];
-
+    // Read a numbers
     cout << "Enter 5 numbers:\n";
     for (int i = 0; i < 5; i++)
     {
         cin >> arr[i];
     }
 
-    // طباعة العناصر
+    // print a numbers
     cout << "Array elements: ";
     for (int i = 0; i < 5; i++)
     {
